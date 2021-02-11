@@ -2,6 +2,6 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 @include('layouts.head')
     <body>
-        @yield('content')
+        @yield('header')
     </body>
 </html>
