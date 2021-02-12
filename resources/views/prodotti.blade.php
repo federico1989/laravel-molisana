@@ -1,7 +1,10 @@
 @extends('layouts.app')
-    @section('header')
-        @include('layouts.header')
+    @section('title')
+        Prodotti
     @endsection
+    
+    @include('layouts.header')
+
     @section('main')
         @include('layouts.main')
     @endsection

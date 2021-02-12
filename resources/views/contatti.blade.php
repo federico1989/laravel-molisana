@@ -1,2 +1,5 @@
 @extends('layouts.app')
-<h1>Contatti</h1>
+    @section('title')
+        Contatti
+    @endsection
+    @include('layouts.header')

@@ -1,4 +1,5 @@
 @extends('layouts.app')
-    @section('header')
-        @include('layouts.header')
+    @section('title')
+        Home
     @endsection
+    @include('layouts.header')
